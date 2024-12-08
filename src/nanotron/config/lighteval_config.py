@@ -81,6 +81,7 @@ class LightEvalConfig:
     the saved config when running LightEval after training.
     """
 
+    output_dir: Optional[str] = None
     slurm_template: Optional[str] = None
     slurm_script_dir: Optional[str] = None
 
